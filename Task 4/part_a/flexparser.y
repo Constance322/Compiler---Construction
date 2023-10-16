@@ -26,3 +26,4 @@ int main() {
     yyparse();
     return 0;
 }
+/*This file defines rules for constructing the parser*/
