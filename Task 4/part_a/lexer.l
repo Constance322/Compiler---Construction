@@ -12,6 +12,7 @@
 int yywrap() {
     return 1;
 }
+
 /* This defines the lexical analyzer using regular expressions to tokenize 
 the input stream into meaningful tokens, which are then used by the parser for further processing.*/
 
