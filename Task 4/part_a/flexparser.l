@@ -21,6 +21,7 @@ line: WORD '\n' { printf("Found a word: %s\n", $1); }
 void yyerror(const char *s) {
     fprintf(stderr, "Error: %s\n", s);
 }
+//This file ontains the lexical specifications, 
 
 int main() {
     yyparse();
